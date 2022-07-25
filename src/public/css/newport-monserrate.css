@@ -77,22 +77,6 @@
   box-shadow: 0px 0px 3px 1px #3898ec;
 }
 
-.w-embed-youtubevideo {
-  width: 100%;
-  position: relative;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.w-embed-youtubevideo:empty {
-  min-height: 75px;
-  padding-bottom: 56.25%;
-}
-
 .menu {
   margin-right: 0px;
   margin-left: 10px;
@@ -1725,6 +1709,37 @@
 .btn-3.brochure:hover {
   border-color: #cc5e12;
   background-color: #cc5e12;
+}
+
+.parent-id {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #16345f;
+  text-align: center;
+}
+
+.contenimage {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.image-12 {
+  width: 100%;
 }
 
 @media screen and (max-width: 991px) {
