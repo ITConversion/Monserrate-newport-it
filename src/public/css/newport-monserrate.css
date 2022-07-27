@@ -723,6 +723,7 @@
 
 .text-span {
   color: #cc5e12;
+  line-height: 1.4em;
   font-weight: 700;
 }
 
@@ -1742,6 +1743,10 @@
   width: 100%;
 }
 
+.legal {
+  font-size: 9px;
+}
+
 @media screen and (max-width: 991px) {
   .menu {
     text-align: center;
@@ -2566,6 +2571,25 @@
   -ms-grid-row-align: center;
   align-self: center;
 }
+
+#dis-vid {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 32%;
+	padding-top: 30px;
+	position: relative;}
+#dis-vid img {
+	height: auto;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;}
+#dis-vid iframe, #dis-vid object, #dis-vid embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;}
 
 @media screen and (max-width: 991px) {
   #w-node-_5dd180b2-6a24-31b0-7b9d-f214ca22ac18-e4ef4d77 {
