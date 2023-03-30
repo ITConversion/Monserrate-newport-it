@@ -399,12 +399,7 @@
   display: block;
   width: 150px;
   max-width: 100%;
-<<<<<<< HEAD
-  margin-right: 20px;
-  padding-right: 0px;
-=======
   padding-right: 20px;
->>>>>>> e853ceac9e87115eaa7f92a650375dc84b36943d
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -743,10 +738,6 @@
 
 .text-span {
   color: #cc5e12;
-<<<<<<< HEAD
-  line-height: 1.4em;
-=======
->>>>>>> e853ceac9e87115eaa7f92a650375dc84b36943d
   font-weight: 700;
 }
 
@@ -1735,44 +1726,6 @@
   background-color: #cc5e12;
 }
 
-<<<<<<< HEAD
-.parent-id {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background-color: #16345f;
-  text-align: center;
-}
-
-.contenimage {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 80%;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-  -ms-flex-align: end;
-  align-items: flex-end;
-}
-
-.image-12 {
-  width: 100%;
-}
-
-.legal {
-  font-size: 9px;
-}
-
-=======
->>>>>>> e853ceac9e87115eaa7f92a650375dc84b36943d
 @media screen and (max-width: 991px) {
   .menu {
     text-align: center;
