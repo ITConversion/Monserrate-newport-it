@@ -77,6 +77,22 @@
   box-shadow: 0px 0px 3px 1px #3898ec;
 }
 
+.w-embed-youtubevideo {
+  width: 100%;
+  position: relative;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.w-embed-youtubevideo:empty {
+  min-height: 75px;
+  padding-bottom: 56.25%;
+}
+
 .menu {
   margin-right: 0px;
   margin-left: 10px;
@@ -381,10 +397,9 @@
 
 .image-2 {
   display: block;
-  width: 130px;
+  width: 150px;
   max-width: 100%;
-  margin-right: 20px;
-  padding-right: 0px;
+  padding-right: 20px;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -723,7 +738,6 @@
 
 .text-span {
   color: #cc5e12;
-  line-height: 1.4em;
   font-weight: 700;
 }
 
@@ -1712,41 +1726,6 @@
   background-color: #cc5e12;
 }
 
-.parent-id {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background-color: #16345f;
-  text-align: center;
-}
-
-.contenimage {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 80%;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-  -ms-flex-align: end;
-  align-items: flex-end;
-}
-
-.image-12 {
-  width: 100%;
-}
-
-.legal {
-  font-size: 9px;
-}
-
 @media screen and (max-width: 991px) {
   .menu {
     text-align: center;
@@ -2571,25 +2550,6 @@
   -ms-grid-row-align: center;
   align-self: center;
 }
-
-#dis-vid {
-	height: 0;
-	overflow: hidden;
-	padding-bottom: 32%;
-	padding-top: 30px;
-	position: relative;}
-#dis-vid img {
-	height: auto;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;}
-#dis-vid iframe, #dis-vid object, #dis-vid embed {
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;}
 
 @media screen and (max-width: 991px) {
   #w-node-_5dd180b2-6a24-31b0-7b9d-f214ca22ac18-e4ef4d77 {

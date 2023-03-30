@@ -28,7 +28,7 @@
 
   function send_to_webhook(data) {
     $.ajax({
-      url: 'https://hooks.zapier.com/hooks/catch/11179028/bz6j4de/',
+      url: 'https://hooks.zapier.com/hooks/catch/9660140/b6fp9cu/',
       dataType: 'json',
       data,
       beforeSend: function (xhr) {
