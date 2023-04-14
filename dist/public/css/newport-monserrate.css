@@ -289,12 +289,8 @@
   display: block;
   width: 130px;
   max-width: 100%;
-<<<<<<< HEAD
-  margin-right: 20px;
-=======
   margin-right: 0px;
   margin-left: 0px;
->>>>>>> c78ef158e41c1a722571948d722c63358dca5120
   padding-right: 0px;
   -o-object-fit: cover;
   object-fit: cover;
@@ -557,11 +553,7 @@
 }
 
 .text-span {
-<<<<<<< HEAD
-  color: #cc5e12;
-=======
   color: #f39745;
->>>>>>> c78ef158e41c1a722571948d722c63358dca5120
   line-height: 1.4em;
   font-weight: 700;
 }
@@ -1369,19 +1361,8 @@
 }
 
 .parent-id {
-<<<<<<< HEAD
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-=======
-  display: flex;
-  width: 100%;
->>>>>>> c78ef158e41c1a722571948d722c63358dca5120
   justify-content: center;
   background-color: #16345f;
   text-align: center;
@@ -1389,19 +1370,8 @@
 
 .contenimage {
   position: relative;
-<<<<<<< HEAD
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   width: 80%;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-  -ms-flex-align: end;
-=======
-  display: flex;
-  width: 80%;
->>>>>>> c78ef158e41c1a722571948d722c63358dca5120
   align-items: flex-end;
 }
 
@@ -1410,9 +1380,6 @@
 }
 
 .legal {
-<<<<<<< HEAD
-  font-size: 9px;
-=======
   font-size: 12px;
 }
 
@@ -1606,7 +1573,6 @@
 
 .container-7 {
   width: 80%;
->>>>>>> c78ef158e41c1a722571948d722c63358dca5120
 }
 
 @media screen and (max-width: 991px) {
@@ -2501,25 +2467,6 @@
   -ms-grid-row-align: center;
   align-self: center;
 }
-
-#dis-vid {
-	height: 0;
-	overflow: hidden;
-	padding-bottom: 32%;
-	padding-top: 30px;
-	position: relative;}
-#dis-vid img {
-	height: auto;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;}
-#dis-vid iframe, #dis-vid object, #dis-vid embed {
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;}
 
 @media screen and (max-width: 991px) {
   #w-node-_5dd180b2-6a24-31b0-7b9d-f214ca22ac18-e4ef4d77 {
