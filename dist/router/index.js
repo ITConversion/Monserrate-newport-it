@@ -7,8 +7,8 @@ const express_1 = __importDefault(require("express"));
 const handlers_1 = require("../handlers");
 const router = express_1.default.Router();
 router.get('/', handlers_1.getMain);
-router.get('/agradecimientos/', handlers_1.agradecimientos);
-router.get('/agendado/', handlers_1.agradecimientos);
+router.get('/agradecimientos', handlers_1.agradecimientos);
+router.get('/agendado', handlers_1.agradecimientos);
 /** Landing pages endpoints */
 router.get('/landing', handlers_1.landingGetMany);
 router.post('/landing', handlers_1.landingCreateOne);
