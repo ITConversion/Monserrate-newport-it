@@ -14,8 +14,8 @@ import {
 const router = express.Router()
 
 router.get('/', getMain)
-router.get('/agradecimientos', agradecimientos )
-router.get('/agendado', agradecimientos )
+router.get('/agradecimientos/', agradecimientos )
+router.get('/agendado/', agradecimientos )
 /** Landing pages endpoints */
 router.get('/landing', landingGetMany)
 router.post('/landing', landingCreateOne)
