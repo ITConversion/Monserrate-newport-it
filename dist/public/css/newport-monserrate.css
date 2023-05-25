@@ -557,6 +557,15 @@
   color: #656565;
 }
 
+.formulario.text-field.phone {
+  height: auto;
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 12px;
+  display: block;
+}
+
 .link-2 {
   color: #007bc0;
 }
@@ -1479,6 +1488,25 @@
 
 .container-7 {
   width: 80%;
+}
+
+.input-block {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  margin-bottom: 8px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: block;
+}
+
+.phone.text-field {
+  height: 48px;
+  color: #16345f;
+  margin-bottom: 8px;
+  padding: 8px 12px;
 }
 
 @media screen and (max-width: 991px) {
