@@ -8,27 +8,40 @@
  
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/css/intlTelInput.min.css" rel="stylesheet">
+
   <%- include('gtag-head'); %>
   <style>
     #dis-vid {
-    height: 0;
-    overflow: hidden;
-    padding-bottom: 32%;
-    padding-top: 30px;
-    position: relative;}
-  #dis-vid img {
-    height: auto;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;}
-  #dis-vid iframe, #dis-vid object, #dis-vid embed {
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;}
-
+      height: 0;
+      overflow: hidden;
+      padding-bottom: 32%;
+      padding-top: 30px;
+      position: relative;}
+    #dis-vid img {
+      height: auto;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;}
+    #dis-vid iframe, #dis-vid object, #dis-vid embed {
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;}
+      .hide {
+        display: none;
+    }
+    #valid-msg {
+        color: #10B981;
+    }
+    #error-msg {
+        color: #F43F5E;
+    }
+    .iti {
+        display: block !important;
+    }
     </style>
 </head>
 <body class="body">
@@ -66,8 +79,13 @@
                <p class="legal">*Equivalente al tope VIS al año de escrituración</p>
                <input type="text" class="formulario w-input" maxlength="256" name="Nombre" data-name="Nombre" placeholder="Nombre completo*" id="Nombre" required="">
                <input type="email" class="formulario w-input" maxlength="256" name="email" data-name="Email" placeholder="Correo electrónico*" id="email" required="">
-               <input type="number" class="formulario w-input" name="celular" data-name="celular" placeholder="Celular*" id="celular" pattern="[0-9]" title="Solo números" required="">
-            
+               <div class="input-block">
+                <div class="w-embed"><input type="hidden" name="Dial code" id="dialCode" class="dialCode" value=""></div>
+                <input type="tel" class="formulario text-field phone w-input" maxlength="256" name="Phone-number" data-name="Phone number" placeholder="Celular*" id="phone" required="">
+                <div class="w-embed"><span id="valid-msg" class="hide">Valid number</span>
+                  <span id="error-msg" class="hide"></span>
+                </div>
+              </div>            
                <label class="w-checkbox">
                 <input type="checkbox" id="Acepto los términos y condiciones" name="Acepto-los-t-rminos-y-condiciones" data-name="Acepto los términos y condiciones" required="" checked="" class="w-checkbox-input checkbox"><span for="Acepto-los-t-rminos-y-condiciones" class="checkbox-label w-form-label">Acepto los <a href="#" class="link-2">términos y condiciones</a></span></label><input type="submit" value="Enviar" data-wait="Espere por favor ..." class="submit-button w-button">
                </form>
