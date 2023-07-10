@@ -412,7 +412,7 @@
 
 .contenedor-banner {
   width: 100%;
-  min-height: 70vh;
+  min-height: 55vh;
   background-image: url('../images/cartagena-apartamentos-newport.jpg');
   background-position: 50%;
   background-size: cover;
@@ -2102,7 +2102,7 @@
 
   .banner {
     background-color: rgba(101, 192, 188, 0);
-    padding: 35px 20px 0 30px;
+    padding: 35px 20px 0 0px;
   }
 
   .porqueinvertir {
