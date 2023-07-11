@@ -1817,7 +1817,7 @@
   }
 
   .tituloazul {
-    font-size: 24px;
+    font-size: 28px;
     line-height: 30px;
   }
 
@@ -2145,8 +2145,8 @@
 
   .div-block-3 {
     justify-content: space-between;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .btn {
@@ -2188,7 +2188,7 @@
   .contenedor-banner {
     background-position: 35% 0;
     background-repeat: no-repeat;
-    background-size: 1000px;
+    background-size: 1200px;
     padding-left: 10px;
     padding-right: 10px;
   }
