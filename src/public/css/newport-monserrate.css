@@ -2263,7 +2263,7 @@
   }
 
   .menuplanos.w--current {
-    margin-left: -30px;
+    margin-left: 0px;
     margin-right: 0;
     padding-left: 40px;
     padding-right: 40px;
