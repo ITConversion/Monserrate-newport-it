@@ -8,27 +8,40 @@
  
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/css/intlTelInput.min.css" rel="stylesheet">
+
   <%- include('gtag-head'); %>
   <style>
     #dis-vid {
-    height: 0;
-    overflow: hidden;
-    padding-bottom: 32%;
-    padding-top: 30px;
-    position: relative;}
-  #dis-vid img {
-    height: auto;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;}
-  #dis-vid iframe, #dis-vid object, #dis-vid embed {
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;}
-
+      height: 0;
+      overflow: hidden;
+      padding-bottom: 32%;
+      padding-top: 30px;
+      position: relative;}
+    #dis-vid img {
+      height: auto;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;}
+    #dis-vid iframe, #dis-vid object, #dis-vid embed {
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;}
+      .hide {
+        display: none;
+    }
+    #valid-msg {
+        color: #10B981;
+    }
+    #error-msg {
+        color: #F43F5E;
+    }
+    .iti {
+        display: block !important;
+    }
     </style>
 </head>
 <body class="body">
@@ -42,7 +55,7 @@
       <nav role="navigation" class="nav-menu w-nav-menu">
         <a href="#apartamentos" class="menu w-nav-link">Apartamentos</a>
         <a href="#zonassociales" class="menu w-nav-link">Zonas sociales</a>
-        <a href="#sala" target="_blank" class="menu w-nav-link">Ubicación</a>
+        <a href="#sala" class="menu w-nav-link">Ubicación</a>
         <a href="#banner" class="menu w-nav-link">Contacto</a>
         <div class="arriba-redes">
           <a href="https://www.facebook.com/newportapartamentos/" target="_blank" class="w-inline-block"><img src="images/ico-face.svg" loading="lazy" alt="facebook Newport " class="imgredes"></a>
@@ -62,14 +75,19 @@
         <div id="w-node-_6b6c99f4-2bd7-b1d8-f6eb-5f657d6b2aa2-e4ef4d77" class="div-block-12">
           <div class="form-block w-form">
             <form id="contactForm" name="email-form" data-name="Email Form" method="get" class="form">
-              <div class="text-block-5">Apartamentos desde <span class="text-span">$227.400.000*</span></div>
+              <div class="text-block-5">Apartamentos desde <span class="text-span">$193.400.000*</span></div>
                <p class="legal">*Equivalente al tope VIS al año de escrituración</p>
                <input type="text" class="formulario w-input" maxlength="256" name="Nombre" data-name="Nombre" placeholder="Nombre completo*" id="Nombre" required="">
                <input type="email" class="formulario w-input" maxlength="256" name="email" data-name="Email" placeholder="Correo electrónico*" id="email" required="">
-               <input type="number" class="formulario w-input" name="celular" data-name="celular" placeholder="Celular*" id="celular" pattern="[0-9]" title="Solo números" required="">
-            
+               <div class="input-block">
+                <div class="w-embed"><input type="hidden" name="Dial code" id="dialCode" class="dialCode" value=""></div>
+                <input type="tel" class="formulario text-field phone w-input" maxlength="256" name="Phone-number" data-name="Phone number" placeholder="Celular*" id="phone" required="">
+                <div class="w-embed"><span id="valid-msg" class="hide">Valid number</span>
+                  <span id="error-msg" class="hide"></span>
+                </div>
+              </div>            
                <label class="w-checkbox">
-                <input type="checkbox" id="Acepto los términos y condiciones" name="Acepto-los-t-rminos-y-condiciones" data-name="Acepto los términos y condiciones" required="" checked="" class="w-checkbox-input checkbox"><span for="Acepto-los-t-rminos-y-condiciones" class="checkbox-label w-form-label">Acepto los <a href="#" class="link-2">términos y condiciones</a></span></label><input type="submit" value="Enviar" data-wait="Espere por favor ..." class="submit-button w-button">
+                <input type="checkbox" id="Acepto los términos y condiciones" name="Acepto-los-t-rminos-y-condiciones" data-name="Acepto los términos y condiciones" required="" checked="" class="w-checkbox-input checkbox"><span for="Acepto-los-t-rminos-y-condiciones" class="checkbox-label w-form-label">Acepto los <a href="https://www.constructoramonserrate.com/wp-content/uploads/2022/10/MANUAL-POLITICA-DE-DATOS-C.-MONSERRATE.pdf" target="_blank" class="link-2">términos y condiciones</a></span></label><input type="submit" value="Enviar" data-wait="Espere por favor ..." class="submit-button w-button">
                </form>
                  <div id="form-status" class="form-status"></div>       
                </div>
@@ -99,7 +117,7 @@
       <div class="div-block-5">
         <div class="div-block-6"><img src="images/hogar-a-tu-alcance.png" loading="lazy" alt="" class="iconosinv">
           <p class="tit-text-invierte">Un nuevo hogar <br>a tu alcance</p><img src="images/linea.png" loading="lazy" alt="" class="separador">
-          <p class="textoinvierte">Apartamentos desde $227.400.000</p>
+          <p class="textoinvierte">Apartamentos desde $193.400.000</p>
           <p class="texto-ley">*Precio Tope VIS al año de escrituración.</p>
           <p class="textoinvierte">Recibimos <span class="text-span-5">tu subsidio</span> como parte de pago de la <span class="text-span-5">cuota inicial.</span> </p>
         </div>
@@ -275,7 +293,7 @@
                 </div>
                 <p class="aplicasli">Aplica subsidio <span class="text-span-2">VIS</span></p>
                 <p class="alcobas">2 alcobas + Espacio flexible</p>
-                <p class="precio">Precio desde: <span class="text-span-4">$</span>193.140.000*</p>
+                <p class="precio">Precio desde: <span class="text-span-4">$</span>193.400.000*</p>
                 <p class="notaslider">*Incluye acabados básicos.</p>
                 <a href="#banner" class="btn">Cotizar mi apartamento</a>
                 <a href="https://newportapartamentos.com/pdf/newport.pdf" target="_blank" class="btn-3 brochure">Brochure</a>
@@ -297,7 +315,7 @@
                 </div>
                 <p class="aplicasli">Aplica subsidio <span class="text-span-2">VIS</span></p>
                 <p class="alcobas">2 alcobas + Espacio flexible</p>
-                <p class="precio">Precio desde: <span class="text-span-6">$</span>227.400.000*</p>
+                <p class="precio">Precio desde: <span class="text-span-6">$</span>193.400.000*</p>
                 <p class="notaslider">*Equivalente al tope VIS al año de escrituración<br>*Incluye acabados básicos.</p>
                 <a href="#banner" class="btn">Cotizar mi apartamento</a>
                 <a href="https://newportapartamentos.com/pdf/newport.pdf" target="_blank" class="btn-3 brochure">Brochure</a>
@@ -322,7 +340,7 @@
           <h6 class="tituloblanco titfoot">Visita nuestra sala de ventas</h6>
           <p class="titulofooter primero">Teléfonos</p>
           <div class="cajasfooter"><img src="images/whatsapp.png" loading="lazy" alt="" class="image-7">
-            <p class="textfooter">(+57) 322 655 7198 - (+57) 318 410 5470<br></p>
+            <p class="textfooter">(+57) 322 655 7198 - (+57) 318 410 5470 - (+57) 312 462 5641<br></p>
           </div>
           <div class="cajasfooter"><img src="images/tel-newport-apartamento.png" loading="lazy" alt="" class="image-7">
             <p class="textfooter">(5) 693 0548<br></p>
