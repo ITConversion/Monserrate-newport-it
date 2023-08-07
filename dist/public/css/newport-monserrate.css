@@ -274,6 +274,7 @@
 
 .div-block-3 {
   width: 100%;
+  text-align: center;
   border-radius: 0;
   flex-direction: row;
   justify-content: center;
@@ -289,6 +290,7 @@
 
 .image-4 {
   max-width: 18%;
+  text-align: left;
   font-size: 1.4em;
 }
 
@@ -330,7 +332,7 @@
   text-align: center;
   text-transform: none;
   flex-direction: row;
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 20px;
   font-size: 32px;
   line-height: 38px;
@@ -555,6 +557,15 @@
 
 .formulario::placeholder {
   color: #656565;
+}
+
+.formulario.text-field.phone {
+  height: auto;
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 12px;
+  display: block;
 }
 
 .link-2 {
@@ -1481,6 +1492,36 @@
   width: 80%;
 }
 
+.input-block {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  margin-bottom: 8px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: block;
+}
+
+.phone.text-field {
+  height: 48px;
+  color: #16345f;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+}
+
+.link-3 {
+  color: #000;
+  text-decoration: none;
+}
+
+.text-block-6 {
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+}
+
 @media screen and (max-width: 991px) {
   .menu {
     text-align: center;
@@ -2061,7 +2102,7 @@
 
   .banner {
     background-color: rgba(101, 192, 188, 0);
-    padding: 420px 20px 0 30px;
+    padding: 35px 20px 0;
   }
 
   .porqueinvertir {
@@ -2083,10 +2124,22 @@
     padding: 40px 2%;
   }
 
+  .footer {
+    padding-top: 20px;
+  }
+
   .image {
     width: 90%;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .image.mobil {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .div-block {
@@ -2098,8 +2151,16 @@
     overflow: hidden;
   }
 
+  .div-block-2 {
+    align-items: center;
+  }
+
+  .textoblanco {
+    padding-bottom: 5px;
+  }
+
   .image-2 {
-    width: 120px;
+    width: 110px;
   }
 
   .div-block-3 {
@@ -2126,6 +2187,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
+    margin-left: 0;
+    padding-left: 0;
     display: flex;
   }
 
@@ -2145,9 +2208,11 @@
   }
 
   .contenedor-banner {
+    min-height: 55vh;
     background-position: 35% 0;
     background-repeat: no-repeat;
-    background-size: 800px;
+    background-size: 1114px;
+    background-attachment: scroll;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -2161,6 +2226,10 @@
   .div-block-12 {
     margin-top: -22px;
     padding: 0;
+  }
+
+  .text-span {
+    font-size: 20px;
   }
 
   .image-5, .image-6 {
@@ -2182,16 +2251,22 @@
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
+    font-size: 18px;
   }
 
   .sliderrender, .slider-2 {
     height: 250px;
   }
 
+  .menuplanos {
+    margin-left: 0;
+  }
+
   .menuplanos.w--current {
-    margin-left: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-left: 0px;
+    margin-right: 0;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .alcobas {
@@ -2222,7 +2297,8 @@
 
   .image-8 {
     width: 130px;
-    max-width: 50%;
+    height: 25px;
+    max-width: 100%;
   }
 
   .icon-3, .icon-4 {
@@ -2244,6 +2320,11 @@
   .tit-seo {
     padding-left: 20px;
     font-size: 16px;
+  }
+
+  .caja-slider {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .botones {
@@ -2307,6 +2388,10 @@
 
   .div-block-21 {
     width: 0%;
+  }
+
+  .bold-text {
+    font-size: 20px;
   }
 }
 
