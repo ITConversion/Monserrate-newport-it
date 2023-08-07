@@ -412,7 +412,7 @@
 
 .contenedor-banner {
   width: 100%;
-  min-height: 55vh;
+  min-height: 70vh;
   background-image: url('../images/cartagena-apartamentos-newport.jpg');
   background-position: 50%;
   background-size: cover;
@@ -1817,7 +1817,7 @@
   }
 
   .tituloazul {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 30px;
   }
 
@@ -2102,7 +2102,7 @@
 
   .banner {
     background-color: rgba(101, 192, 188, 0);
-    padding: 35px 20px 0 0px;
+    padding: 35px 20px 0;
   }
 
   .porqueinvertir {
@@ -2124,10 +2124,22 @@
     padding: 40px 2%;
   }
 
+  .footer {
+    padding-top: 20px;
+  }
+
   .image {
     width: 90%;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .image.mobil {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .div-block {
@@ -2139,14 +2151,22 @@
     overflow: hidden;
   }
 
+  .div-block-2 {
+    align-items: center;
+  }
+
+  .textoblanco {
+    padding-bottom: 5px;
+  }
+
   .image-2 {
-    width: 120px;
+    width: 110px;
   }
 
   .div-block-3 {
     justify-content: space-between;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   .btn {
@@ -2167,6 +2187,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
+    margin-left: 0;
+    padding-left: 0;
     display: flex;
   }
 
@@ -2186,9 +2208,11 @@
   }
 
   .contenedor-banner {
+    min-height: 55vh;
     background-position: 35% 0;
     background-repeat: no-repeat;
-    background-size: 1200px;
+    background-size: 1114px;
+    background-attachment: scroll;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -2202,6 +2226,10 @@
   .div-block-12 {
     margin-top: -22px;
     padding: 0;
+  }
+
+  .text-span {
+    font-size: 20px;
   }
 
   .image-5, .image-6 {
@@ -2223,16 +2251,22 @@
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
+    font-size: 18px;
   }
 
   .sliderrender, .slider-2 {
     height: 250px;
   }
 
+  .menuplanos {
+    margin-left: 0;
+  }
+
   .menuplanos.w--current {
-    margin-left: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-left: -30px;
+    margin-right: 0;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .alcobas {
@@ -2263,7 +2297,8 @@
 
   .image-8 {
     width: 130px;
-    max-width: 50%;
+    height: 25px;
+    max-width: 100%;
   }
 
   .icon-3, .icon-4 {
@@ -2285,6 +2320,11 @@
   .tit-seo {
     padding-left: 20px;
     font-size: 16px;
+  }
+
+  .caja-slider {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .botones {
@@ -2348,6 +2388,10 @@
 
   .div-block-21 {
     width: 0%;
+  }
+
+  .bold-text {
+    font-size: 20px;
   }
 }
 
