@@ -549,6 +549,7 @@
   padding-top: 25px;
   padding-bottom: 25px;
   font-size: 14px;
+  overflow: hidden;
 }
 
 .formulario::-ms-input-placeholder {
@@ -2077,6 +2078,11 @@
     font-size: 17px;
   }
 
+  .image-14 {
+    width: 0%;
+    max-width: 0%;
+  }
+
   .subtitulo-aparta {
     line-height: 1em;
   }
@@ -2185,8 +2191,8 @@
 
   .tabs-menu {
     flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-end;
+    align-items: center;
     margin-left: 0;
     padding-left: 0;
     display: flex;
@@ -2263,7 +2269,7 @@
   }
 
   .menuplanos.w--current {
-    margin-left: 0px;
+    margin-left: 0;
     margin-right: 0;
     padding-left: 40px;
     padding-right: 40px;
@@ -2372,13 +2378,18 @@
 
   .tabdesabilitado {
     color: rgba(0, 0, 0, 0);
+    margin-top: 0;
     margin-left: 0;
     margin-right: 0;
+    overflow: visible;
   }
 
   .image-14 {
     width: 0%;
+    height: 0;
+    max-height: 0;
     max-width: 0%;
+    overflow: hidden;
   }
 
   .tituaz {
