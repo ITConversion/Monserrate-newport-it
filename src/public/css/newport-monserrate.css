@@ -32,7 +32,7 @@
 
 .w-checkbox-input--inputType-custom.w--redirected-checked {
   background-color: #3898ec;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -54,14 +54,14 @@
 
 .menu:hover {
   color: #fff;
-  background-color: rgba(22, 52, 95, .25);
+  background-color: rgba(22, 52, 95, 0.25);
   border-radius: 15px;
 }
 
 .menu.w--current {
   color: #fff;
   cursor: pointer;
-  background-color: rgba(22, 52, 95, .25);
+  background-color: rgba(22, 52, 95, 0.25);
 }
 
 .navbar {
@@ -127,7 +127,7 @@
 }
 
 .apartamentosdisponibles {
-  background-image: url('../images/Enmascarar-grupo-11.png');
+  background-image: url("../images/Enmascarar-grupo-11.png");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 200px;
@@ -141,7 +141,7 @@
 }
 
 .recorrido {
-  background-image: url('../images/360.jpg');
+  background-image: url("../images/360.jpg");
   background-position: 50%;
   background-size: cover;
   flex-direction: column;
@@ -313,7 +313,7 @@
   padding: 15px 20px;
   font-weight: 700;
   text-decoration: none;
-  transition: background-color .6s cubic-bezier(.55, .055, .675, .19);
+  transition: background-color 0.6s cubic-bezier(0.55, 0.055, 0.675, 0.19);
   display: block;
 }
 
@@ -396,7 +396,9 @@
   display: grid;
 }
 
-.div-block-6, .div-block-7, .div-block-8 {
+.div-block-6,
+.div-block-7,
+.div-block-8 {
   flex-direction: column;
   align-items: flex-start;
   display: flex;
@@ -413,7 +415,7 @@
 .contenedor-banner {
   width: 100%;
   min-height: 70vh;
-  background-image: url('../images/cartagena-apartamentos-newport.jpg');
+  background-image: url("../images/cartagena-apartamentos-newport.jpg");
   background-position: 50%;
   background-size: cover;
   flex-direction: row;
@@ -480,7 +482,7 @@
   z-index: 2;
   color: #f39745;
   text-align: center;
-  letter-spacing: -.4px;
+  letter-spacing: -0.4px;
   background-color: #1a355d;
   border: 0 #000;
   border-radius: 12px;
@@ -508,7 +510,8 @@
   display: block;
 }
 
-.image-5, .image-6 {
+.image-5,
+.image-6 {
   width: 140px;
 }
 
@@ -653,24 +656,24 @@
   width: 32.3%;
   height: 300px;
   text-align: right;
-  background-image: url('../images/render-picina---Newport.jpg');
+  background-image: url("../images/render-picina---Newport.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: .5%;
-  margin-right: .5%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
   padding-bottom: 0;
   padding-left: 0%;
   padding-right: 0%;
 }
 
 .sliderrender.seg {
-  background-image: url('../images/render-zonas-comunes---Newport.jpg');
+  background-image: url("../images/render-zonas-comunes---Newport.jpg");
 }
 
 .sliderrender.ter {
   width: 31%;
-  background-image: url('../images/vista---Newport.jpg');
+  background-image: url("../images/vista---Newport.jpg");
   margin-left: 1%;
   margin-right: 1%;
 }
@@ -913,13 +916,13 @@
   width: 36px;
   height: 36px;
   text-align: center;
-  background-color: rgba(255, 255, 255, .25);
+  background-color: rgba(255, 255, 255, 0.25);
   border-radius: 28px;
   margin: 0;
   padding: 10px 0;
   font-size: 25px;
   font-weight: 700;
-  line-height: .7em;
+  line-height: 0.7em;
   text-decoration: none;
   position: relative;
   top: auto;
@@ -953,7 +956,7 @@
 .icon-2 {
   width: 36px;
   height: 36px;
-  background-color: rgba(255, 255, 255, .25);
+  background-color: rgba(255, 255, 255, 0.25);
   border-radius: 50px;
   margin: 0;
   font-size: 25px;
@@ -979,7 +982,7 @@
 .icon-3 {
   width: 36px;
   height: 36px;
-  background-color: rgba(255, 255, 255, .25);
+  background-color: rgba(255, 255, 255, 0.25);
   border-radius: 50px;
   margin-top: 140px;
   margin-left: 0;
@@ -996,7 +999,7 @@
 .icon-4 {
   width: 36px;
   height: 36px;
-  background-color: rgba(255, 255, 255, .25);
+  background-color: rgba(255, 255, 255, 0.25);
   border-radius: 50px;
   margin: 140px 0 0;
   font-size: 25px;
@@ -1018,7 +1021,8 @@
   right: -20px;
 }
 
-.slide-nav, .slide-nav-2 {
+.slide-nav,
+.slide-nav-2 {
   display: none;
 }
 
@@ -1117,7 +1121,7 @@
   z-index: 2147483647;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, .77);
+  background-color: rgba(0, 0, 0, 0.77);
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -1182,7 +1186,7 @@
   font-size: 18px;
   font-weight: 700;
   text-decoration: none;
-  transition: background-color .1s cubic-bezier(.55, .055, .675, .19);
+  transition: background-color 0.1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
   display: inline-block;
 }
 
@@ -1257,7 +1261,7 @@
   font-size: 18px;
   font-weight: 700;
   text-decoration: none;
-  transition: background-color .1s cubic-bezier(.55, .055, .675, .19);
+  transition: background-color 0.1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
   display: inline-block;
 }
 
@@ -1345,24 +1349,24 @@
 }
 
 .slider-zonas {
-  background-image: url('../images/newport-apartamentos-cartagena.jpg');
+  background-image: url("../images/newport-apartamentos-cartagena.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slider-zonas.s2 {
-  background-image: url('../images/newport-apartamentos-cartagena-espacios.jpg');
+  background-image: url("../images/newport-apartamentos-cartagena-espacios.jpg");
   background-position: 50%;
   background-size: cover;
 }
 
 .slider-zonas.s3 {
-  background-image: url('../images/vista--2-newport-apartamentos-en-baranquilla.jpg');
+  background-image: url("../images/vista--2-newport-apartamentos-en-baranquilla.jpg");
 }
 
 .slider-zonas.s4 {
-  background-image: url('../images/newport-apartamentos-cartagena-habitacion-principal.jpg');
+  background-image: url("../images/newport-apartamentos-cartagena-habitacion-principal.jpg");
   background-position: 50%;
   background-size: cover;
 }
@@ -1525,6 +1529,29 @@
   font-size: 14px;
 }
 
+.select-field {
+  height: 48px;
+  color: #16345f;
+  text-align: left;
+  background-color: #ebeded;
+  border: 1px solid #ebeded;
+  border-radius: 10px;
+  margin-top: 0;
+  padding: 10px 12px;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+.select-field-2 {
+  color: #16345f;
+  border-radius: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  overflow: visible;
+}
+
 @media screen and (max-width: 991px) {
   .menu {
     text-align: center;
@@ -1572,7 +1599,8 @@
     width: 142px;
   }
 
-  .tituloblanco, .tituloazul {
+  .tituloblanco,
+  .tituloazul {
     font-size: 26px;
   }
 
@@ -1604,8 +1632,8 @@
 
   .carrucel {
     width: 15.5%;
-    margin-left: .6%;
-    margin-right: .6%;
+    margin-left: 0.6%;
+    margin-right: 0.6%;
   }
 
   .imgcar {
@@ -1686,7 +1714,7 @@
   .icon {
     width: 30px;
     height: 30px;
-    line-height: .5em;
+    line-height: 0.5em;
   }
 
   .icon-2 {
@@ -2204,7 +2232,9 @@
     display: block;
   }
 
-  .div-block-6, .div-block-7, .div-block-8 {
+  .div-block-6,
+  .div-block-7,
+  .div-block-8 {
     padding-bottom: 20px;
   }
 
@@ -2239,7 +2269,8 @@
     font-size: 20px;
   }
 
-  .image-5, .image-6 {
+  .image-5,
+  .image-6 {
     width: 120px;
   }
 
@@ -2262,7 +2293,8 @@
     font-size: 16px;
   }
 
-  .sliderrender, .slider-2 {
+  .sliderrender,
+  .slider-2 {
     height: 250px;
   }
 
@@ -2286,7 +2318,7 @@
   }
 
   .textfooter {
-    letter-spacing: -.2px;
+    letter-spacing: -0.2px;
     font-size: 12px;
   }
 
@@ -2309,7 +2341,8 @@
     max-width: 100%;
   }
 
-  .icon-3, .icon-4 {
+  .icon-3,
+  .icon-4 {
     margin-top: 120px;
   }
 
@@ -2413,7 +2446,8 @@
   justify-self: center;
 }
 
-#w-node-_40efa98b-dc96-0686-6a9d-5cc0becc9e67-e4ef4d77, #w-node-_73ef46fb-8134-2218-f608-9c6ebc8f1eb8-e4ef4d77 {
+#w-node-_40efa98b-dc96-0686-6a9d-5cc0becc9e67-e4ef4d77,
+#w-node-_73ef46fb-8134-2218-f608-9c6ebc8f1eb8-e4ef4d77 {
   align-self: center;
   justify-self: center;
 }
@@ -2432,5 +2466,3 @@
     justify-self: center;
   }
 }
-
-

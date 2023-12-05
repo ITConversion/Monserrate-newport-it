@@ -78,14 +78,23 @@
                <input type="text" class="formulario w-input" maxlength="256" name="Nombre" data-name="Nombre" placeholder="Nombre completo*" id="Nombre" required="">
                <input type="email" class="formulario w-input" maxlength="256" name="email" data-name="Email" placeholder="Correo electrónico*" id="email" required="">
                <div class="input-block">
-                <div class="w-embed"><input type="hidden" name="Dial code" id="dialCode" class="dialCode" value=""></div>
+                <div class="w-embed">
+                  <input type="hidden" name="Dial code" id="dialCode" class="dialCode" value=""></div>
                 <input type="tel" class="formulario text-field phone w-input" maxlength="256" name="Phone-number" data-name="Phone number" placeholder="Celular*" id="phone" required="">
                 <div class="w-embed"><span id="valid-msg" class="hide">Valid number</span>
                   <span id="error-msg" class="hide"></span>
                 </div>
-              </div>            
+              </div>           
+              <select id="canal" name="canal" data-name="canal" required="" class="select-field w-select">
+                <option value="">Canal de contacto preferido*</option>
+                <option value="Llamada">Llamada</option>
+                <option value="WhatsApp">WhatsApp</option>
+                <option value="Correo electronico">Correo electronico</option>
+              </select> 
                <label class="w-checkbox">
-                <input type="checkbox" id="Acepto los términos y condiciones" name="Acepto-los-t-rminos-y-condiciones" data-name="Acepto los términos y condiciones" required="" checked="" class="w-checkbox-input checkbox"><span for="Acepto-los-t-rminos-y-condiciones" class="checkbox-label w-form-label">Acepto los <a href="https://www.constructoramonserrate.com/wp-content/uploads/2022/10/MANUAL-POLITICA-DE-DATOS-C.-MONSERRATE.pdf" target="_blank" class="link-2">términos y condiciones</a></span></label><input type="submit" value="Enviar" data-wait="Espere por favor ..." class="submit-button w-button">
+                <input type="checkbox" id="Acepto los términos y condiciones" name="Acepto-los-t-rminos-y-condiciones" data-name="Acepto los términos y condiciones" required="" checked="" class="w-checkbox-input checkbox">
+                <span for="Acepto-los-t-rminos-y-condiciones" class="checkbox-label w-form-label">Acepto los <a href="https://www.constructoramonserrate.com/wp-content/uploads/2022/10/MANUAL-POLITICA-DE-DATOS-C.-MONSERRATE.pdf" target="_blank" class="link-2">términos y condiciones</a></span></label>
+                <input type="submit" value="Enviar" data-wait="Espere por favor ..." class="submit-button w-button">
                </form>
                  <div id="form-status" class="form-status"></div>       
                </div>
